@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADKESMA GAMADARPA - UPGRADING</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/checkall.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <script type="module" src="assets/script/checkall.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet" />
+  </head>
+
+  <body class="main body-main">
+    <div id="demo">
+      <h1>LIST ATTENDANCE</h1>
+      <h2>Upgrading Universitas Metamedia 2023/2024</h2>
+
+      <!-- Responsive table starts here -->
+      <!-- For correct display on small screens you must add 'data-title' to each 'td' in your table -->
+      <div class="table-responsive-vertical shadow-z-1">
+        <!-- Table starts here -->
+        <div id="place_for_xrc23a"></div>
+      </div>
+
+      <!-- Table Constructor change table classes, you don't need it in your project -->
+      <div style="width: 45%; display: inline-block; vertical-align: top">
+        <h2>Status</h2>
+        <p>DATE: {{date}}</p>
+        <p>ACCESS: {{status}}</p>
+        <p>CONSOLE LOCK: {{consolelock}}</p>
+        <p>LAST ATTEND: {{lastattend}}</p>
+        <a href="/checkall/passcode"><p>PASSCODE: <b>{{passcode}}</b></p></a>
+      </div>
+      <div style="width: 45%; display: inline-block; vertical-align: top; margin-left: 30px;">
+        <h2>Console</h2>
+        <input id="passcode" name="passcode" placeholder="CHANGE PASSCODE"/>
+        <select id="access" name="access">
+          <option value="">ACCESS</option>
+          <option value="1">OPEN</option>
+          <option value="0">CLOSE</option>
+        </select>
+        <select id="consolelock" name="access">
+          <option value="">CONSOLE LOCK</option>
+          <option value="1">LOCK</option>
+          <option value="0">UNLOCK</option>
+        </select>
+        <select id="lastattend" name="lastattend">
+          <option value="">LAST ATTEND</option>
+          <option value="1">ACTIVE</option>
+          <option value="0">DEACTIVE</option>
+        </select>
+        <input style="background-color: black;color:lawngreen;" id="commands" name="commands" placeholder="> commands">
+        <button id="button">Apply</button>
+        <button id="import">Import Data</button>
+        <button id="cert">Create Cert</button>
+      </div>
+    </div>
+  </body>
+</html>

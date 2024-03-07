@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADKESMA GAMADARPA - UPGRADING</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/checkall.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <table id="table" class="table table-hover table-mc-light-blue">
+      <thead>
+        <tr>
+          <th>NO</th>
+          <th>NAMA (NIM)</th>
+          <th>ATTENDANCE 1</th>
+          <th>ATTENDANCE 2</th>
+          <th>LAST ATTENDANCE</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for data in listdata %}
+          {% set ret = data.split('|') %}
+          <tr>
+            <td data-title="ID">{{ ret[0] }}</td>
+            <td data-title="Name">{{ ret[1] }}</td>
+            <td data-title="Status">{{ ret[2] }}</td>
+            <td data-title="Status">{{ ret[3] }}</td>
+            <td data-title="Status">{{ret[4]}}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>

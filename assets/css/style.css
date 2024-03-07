@@ -1,0 +1,82 @@
+.hidden {
+    visibility: hidden;
+}
+
+.hide-button {
+  visibility: visible;
+}
+
+.notification {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: white;
+    visibility:hidden;
+    
+}
+
+.neon-rectangle {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 5%;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px cyan, 0 0 40px cyan, 0 0 60px cyan, 0 0 80px cyan;
+}
+
+.neon-rectangle::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px cyan;
+    animation: wave 1s ease-in-out infinite;
+  }
+
+  @keyframes wave {
+    0% {
+      box-shadow: 0 0 10px cyan;
+    }
+    50% {
+      box-shadow: 0 0 40px cyan;
+    }
+    100% {
+      box-shadow: 0 0 10px cyan;
+    }
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: white;
+  color: red;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+@keyframes dissolve {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes dissolve-reverse {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
