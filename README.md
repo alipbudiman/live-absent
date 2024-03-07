@@ -4,7 +4,7 @@ Our Activity Record on Instagram. [click here to view](https://www.instagram.com
 
 # DOKUMENTASI DALAM BAHASA INDONESIA:
 
-[Dokumentasi Bahasa Indonesia](readme\indonesia\README.md)
+[Dokumentasi Bahasa Indonesia](readme/indonesia/README.md)
 
 # ENGLISH DOCUMENTATION:
 
