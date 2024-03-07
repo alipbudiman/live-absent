@@ -1,5 +1,7 @@
 # UPGRADING-STUDENT-LIVE-ABSENT
 
+Our Activity Record on Instagram. [click here to view](https://www.instagram.com/p/Cy7eT_XpZuo/?igsh=MWw5MHViZTFyMWluZQ==)
+
 # DOKUMENTASI DALAM BAHASA INDONESIA:
 
 [Dokumentasi Bahasa Indonesia](readme\indonesia\README.md)
