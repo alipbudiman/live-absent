@@ -4,13 +4,13 @@ Repository ini adalah contoh penggunaan bahasa pemrograman Python 3 dengan Frame
 
 Dalam repository ini, Anda akan menemukan:
 
-    1. **Kode Python menggunakan Flask**: Kode backend website yang ditulis dalam bahasa pemrograman Python menggunakan framework Flask. Ini mencakup logika untuk mengelola absensi peserta, mengambil data dari database MongoDB, dan menyajikannya dalam format yang sesuai untuk ditampilkan di frontend.
+1. **Kode Python menggunakan Flask**: Kode backend website yang ditulis dalam bahasa pemrograman Python menggunakan framework Flask. Ini mencakup logika untuk mengelola absensi peserta, mengambil data dari database MongoDB, dan menyajikannya dalam format yang sesuai untuk ditampilkan di frontend.
 
-    2. **Modul-modul Tambahan**: Penggunaan modul-modul tambahan Python untuk keperluan tertentu, seperti modul untuk mengakses MongoDB, manajemen session pengguna, dan mungkin modul-modul lain yang diperlukan untuk fungsi khusus.
+2. **Modul-modul Tambahan**: Penggunaan modul-modul tambahan Python untuk keperluan tertentu, seperti modul untuk mengakses MongoDB, manajemen session pengguna, dan mungkin modul-modul lain yang diperlukan untuk fungsi khusus.
 
-    3. **MongoDB sebagai Database**: Penggunaan MongoDB sebagai database untuk menyimpan data absensi peserta acara. Ini termasuk skema database, kueri untuk menambahkan, mengambil, atau memperbarui data, serta integrasi MongoDB dengan aplikasi Flask.
+3. **MongoDB sebagai Database**: Penggunaan MongoDB sebagai database untuk menyimpan data absensi peserta acara. Ini termasuk skema database, kueri untuk menambahkan, mengambil, atau memperbarui data, serta integrasi MongoDB dengan aplikasi Flask.
 
-    4. **Frontend dan Live Report**: Tampilan frontend website yang memungkinkan peserta acara untuk melakukan absensi dan melihat laporan absensi secara langsung. Ini mungkin termasuk halaman web untuk input absensi, tampilan live report yang diperbarui secara otomatis, dan desain antarmuka pengguna yang sesuai.
+4. **Frontend dan Live Report**: Tampilan frontend website yang memungkinkan peserta acara untuk melakukan absensi dan melihat laporan absensi secara langsung. Ini mungkin termasuk halaman web untuk input absensi, tampilan live report yang diperbarui secara otomatis, dan desain antarmuka pengguna yang sesuai.
 
 Dengan menggunakan kombinasi Python 3, Flask, MongoDB, dan modul-modul tambahan, repository ini menyediakan landasan yang solid untuk membuat website live absensi yang interaktif dan mudah digunakan untuk acara "Upgrading Mahasiswa".
 
